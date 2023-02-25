@@ -23,7 +23,7 @@ class Algorithm {
 
         do {
             System.out.println("Какой фрукт я загадал: яблоко, апельсин, банан, манго или киви?\nЕсли хотите уйти напишите \"Нет\". :-(");
-            secretFruit = in.nextInt(4);
+            secretFruit = in.nextInt(5);
             myFruit = word.nextLine();
             if (myFruit.equals(mass[secretFruit])) {
                 System.out.println("Превосходно! Вы угадали! Это " + mass[secretFruit]);
